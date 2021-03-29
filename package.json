@@ -16,6 +16,6 @@
     "jsoning": "^0.10.20",
     "monk": "^7.3.3",
     "node-fetch": "^2.6.1",
-    "retronid": "^1.0.0"
+    "retronid": "^1.0.2"
   }
 }
