@@ -11,15 +11,15 @@ const fetch = require("node-fetch");
 const retronid = require("retronid");
 // home page
 app.get('/', (req, res) => {
-	res.sendFile("/home/runner/isOn/pages/index.html");
+	res.sendFile("/home/runner/onestate-server/pages/index.html");
 });
 // css
 app.get('/css.css', (req, res) => {
-	res.sendFile("/home/runner/isOn/css/tailwind.css");
+	res.sendFile("/home/runner/onestate-server/css/tailwind.css");
 });
 // auth pages
 app.get('/auth', (req, res) => {
-	res.sendFile("/home/runner/isOn/pages/welcomeauth.html");
+	res.sendFile("/home/runner/onestate-server/pages/welcomeauth.html");
 });
 app.get('/auth/send', (req, res) => {
 	res.redirect(`https://fluffyscratch.hampton.pw/auth/getKeys/v2?redirect=aXNvbi53Z3l0LnRrL2F1dGgvY2FsbGJhY2s`);
