@@ -14,7 +14,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsoning": "^0.10.20",
-    "monk": "^7.3.3",
     "node-fetch": "^2.6.1",
     "retronid": "^1.0.2"
   }
